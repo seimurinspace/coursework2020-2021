@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Добро Пожаловать в Швецию!</title>
+  <link rel="stylesheet" href="styles/style.min.css">
+  <link rel="shortcut icon" href="image/sweden.png" type="image/png">
+  <link rel="stylesheet" href="font/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet prefetch"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/css/bootstrap-datepicker3.standalone.css">
+  <script src="./jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/js/bootstrap-datepicker.min.js"></script>
+  <script src="./jquery.twidget.js?v_1207"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".pop-up").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+          top = $(id).offset().top;
+        $('body,html').animate({ scrollTop: top }, 1200);
+      });
+    });
+  </script>
+  <div class="container">
+    <div class="pop-up">
+      <button><a href="#twidget">Заказать билеты прямо
+          сейчас!</a></button>
+    </div>
+    <div class="menu-droplist">
+      <div class="dropbtn">&#8801;</div>
+      <div class="dropdown-content">
+        <a href="index.html">Главная</a>
+        <a href="our-agency.html">Наше агенство</a>
+        <a href="other-city.html">Города Швеции</a>
+      </div>
+    </div>
+    <div class="logotype">
+      <img src="image/sweden.png" alt="logo">
+      <h1>Welcome to Sweden</h1>
+    </div>
+    <div class="content">
+      <div class="cont-text">
+        <p>Швеция - государство, находящееся в Северной Европе на Скандинавском полуострове.<br>
+          Её территория составляет 447 млн км² и проживает в ней 10 млн человек - крупнейшее<br>
+          скандинавское королевство. Среди стран Европы занимает 5-е место по территории.</p>
+      </div>
+      <div class="topology-img">
+        <img src="image/topology.png" alt="topology">
+      </div>
+    </div>
+    <div class="content">
+      <div class="cont-text">
+        <p>Столица Швеции - Стокгольм. Это город с большой историей, красивой архитектурой. Здесь вы<br>
+          можете заметить и увековеченные здания с эпохи Средневековья, и также нашей эпохи!<br>
+          Стокгольм известен своей богатой культурой. Здесь жили и работали знаменитые люди,<br>
+          основывались разнообразные культурные учреждения. В 1998 году он был избран<br>
+          европейской культурной столицей.</p>
+      </div>
+      <form class="slider">
+
+        <input class="slider-s" type="radio" name="fancy" autofocus value="clubs" id="clubs" />
+        <input class="slider-s" type="radio" name="fancy" value="hearts" id="hearts" />
+        <input class="slider-s" type="radio" name="fancy" value="spades" id="spades" />
+        <input class="slider-s" type="radio" name="fancy" value="diamonds" id="diamonds" />
+        <label class="slider-l" for="clubs">&#9827; Stockholm</label><label class="slider-l"
+          for="hearts">&#9829;Stockholm</label><label class="slider-l" for="spades">&#9824;
+          Stockholm</label><label class="slider-l" for="diamonds">&#9830; Stockholm</label>
+      </form>
+
+    </div>
+    <div class="other-city">
+      <div class="title">
+        <p>А также другие города Швеции с интересной историей <br>которую вы не должны пропустить:</p>
+      </div>
+      <div class="city-sheet">
+        <div class="malme">
+          <a class="malme-text" href="#" title="" alt="Мальмё - третий по величине город
+              в Швеции. Находится в самом южном
+              районе - Сконе и является админи
+              стративным его центром. Один из
+              важнейших транспортных узлов и
+              промышленных центров Скандинавии">
+            <img src="image/мальмё.png" alt="malme"></a>
+        </div>
+        <div class="geteborg">
+
+          <a class="geteborg-text" href="#" title="" alt="Гётеборг - второй по величине город в Швеции. Находится на юго западе в лене Вестра -
+              Гёталанд.
+              Один из промышленных центров страны, распологающий штаб-квартиры компаний: Volvo,...">
+            <img src="image/geteborg.png" alt="geteborg"></a>
+        </div>
+        <div class="uppsala">
+          <a class="uppsala-text" href="#" title="" alt="Уппсала - чётвёртый по величине город в Швеции. Находится в 70 км к северо-западу от
+                Стокгольма.
+                Является центром
+                архидиоцезы Уппсалы и расположит в себе стареший Уппсальский университет.">
+            <img src="image/уппсала.png" alt="uppsala" title="Уппсала"></a>
+
+        </div>
+      </div>
+      <div class="spoiler-city">
+        <a href="other-city.html">Остальные города...</a>
+      </div>
+    </div>
+    <div class="history-content">
+      <div class="history-content_text">
+        <p>Культура Швеции заключается в аспектах бытия самих шведов: лютеранство, профсоюзное<br>
+          движение, уверенность в себе и тому подобное.Различные исторические периоды также<br>
+          влияли на формирование шведской культуры или выражали шведскую ментальность.<br>
+          Так, Швеция отменила рабство к середине XIV века, также не было у шведов крепостного<br>
+          права, крестьянство составляло около 40% населения, и было одним из четырёх сословий (<br>
+          вместе с дворянами, духовенством и горожанами) в Риксдаге.</p>
+      </div>
+      <div class="history-content_text">
+        <p>Древние образцы шведского искусства находятся в церквях: настенные фрески,<br>
+          алтарная часть. представляющие религиозные убеждения: чистилище, дьявола,<br>
+          Иисуса Христа и Деву Марию.</p>
+      </div>
+      <div class="history-content_mediatext">
+        <p>Наиболее яркий представитель стиля рококо в Швеции — художник Густаф Лундберг,<br>
+          имевший европейскую известность. Среди его парадных портретов особый интерес<br>
+          представляет портрет за партией в шахматы Густава Бадина, в прошлом чернокожего<br>
+          мальчика-раба, ставшего придворным и государственным деятелем трёх шведских<br>
+          королей. В XIX веке художник Карл Ларссон (1853-1919) сформировал образ идиллического<br>
+          дома сельской местности с его наивными живописными иллюстрациями.</p>
+        <div class="img-human">
+          <a class="img-human" href="https://ru.wikipedia.org/wiki/%D0%9B%D0
+            %B0%D1%80%D1%81%D1%81%D0%BE%D0%BD,
+            _%D0%9A%D0%B0%D1%80%D0%BB_%D0%A3%D0%BB%D0%BE%D1%84" title="" alt="Карл Ларссон (1853-1919)">
+            <img src="image/Carl_Michael_Bellman.jpg" alt="Carl_Michael_Bellman"></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="history">
+      <div class="first-block">
+        <h2>История</h2>
+        <div class="history-text">
+          <p>Заселять территорию Скандинавского полуострова предки современных шведов начали сразу же после ледникового
+            периода. К
+            VIII веку здешние обитатели открыли в себе склонность к военному ремеслу, чем тут же поспешили
+            воспользоваться. Вплоть
+            до XI столетия викинги наводили ужас на соседние страны Европы, бороздя на утлых ладьях морские просторы и
+            грабя всех,
+            кто под руку попадется.</p>
+        </div>
+        <img src="image/Ales-stenar.jpg" alt="Камни Але (Ale's Stones) – шведский ответ английскому Стоунхеджу, мегалитический комплекс на юге провинции Сконе в местечке Косеберга,
+       датирующийся примерно 600 г. н.э.">
+      </div>
+      <div class="second-block">
+        <p>Постепенно, закладывая основы государственности, объединяясь в выгодные для себя унии и выходя из них, Швеция
+          снискала
+          себе славу сверхдержавы. Способствовали укреплению престижного статуса и превосходно налаженные торговые
+          связи, а также
+          могущественная армия. Сбить спесь с заносчивых скандинавов помогла Северная война, в результате которой России
+          удалось
+          оторвать у своего сурового соседа приличный кусок территорий.</p>
+      </div>
+      <div class="third-mediablock">
+        <div class="text">
+          <p>В XIX веке экономика Швеции сбавила обороты, из-за чего индустриализация пришла в королевство с большим
+            опозданием.
+            Тормозили развитие государства сразу несколько факторов, среди которых решающими оказались низкая плотность
+            населения и
+            невысокий уровень урбанизации: практичные и предусмотрительные шведы не торопились покорять города,
+            предпочитая
+            держаться за свои земельные наделы.</p>
+        </div>
+        <div class="img-block">
+          <img src="image/Stokgolm.jpg" alt="Стокгольм в середине XVII века">
+          <p>Стокгольм в середине XVII века</p>
+        </div>
+      </div>
+      <div class="fourth-mediablock">
+        <p>В начале XX века Швеция сделала ход конем, объявив о своем<br> нейтралитете. Таким способом страна убила
+          сразу двух зайцев:<br>
+          избежала участия в военных конфликтах и подтянула свою отстающую экономику. В то время как остальная
+          Европа вела борьбу
+          с кайзеровской, а впоследствии и гитлеровской Германией, предприимчивые шведы с активно снабжали вторую
+          оружием и
+          продовольствием.</p>
+      </div>
+    </div>
+    <div class="tourism">
+      <h2>Основные туристические направления</h2>
+      <div class="first-tourism">
+        <p>Традиционно королевство делится на три историко-географических области. Самый обласканный вниманием туристов
+          регион –
+          <strong>Гёталанд.</strong> Во-первых, потому что это юг Швеции с более благоприятными климатическими условиями
+          и богатейшим прошлым:
+          местные жители авторитетно заявляют, что все события саги о Беовульфе происходили именно на гётландской земле.
+          Во-вторых, конкретная область вместила в себя два таких крупных культурных центра, как <a href="#">Мальмё</a>
+          и <a href="#">Гётеборг</a>.
+        </p>
+      </div>
+      <div class="first-tourism-img">
+        <img src="image/Gorod-Sigtuna-v-Svealande.jpg" alt="svealand">
+        <img src="image/Zamok-Trolle_Lyungbyu.jpg" alt="lyungbyu">
+      </div>
+      <div class="two-tourism">
+        <p>Свеаланд или центральный регион можно полюбить уже только за то, что на его земле выросла шведская столица.
+          Кроме того,
+          это край синих озер, пасторальных пейзажей и сказочных замков. Свеаланд идеален для тех, кто приехал в Швецию
+          надышаться
+          атмосферой прошлого и побродить по местам, которые в свое время облюбовали неустрашимые викинги. Древняя
+          столица этих
+          бесшабашных вояк (Сигтуна) находится как раз на берегу прекраснейшего озера Меларен. Кстати, в этом
+          очаровательном и
+          теперь уже провинциальном городе можно отыскать полторы сотни каменных рун, над расшифровкой значения которых
+          лингвисты
+          будут ломать голову еще не одну сотню лет.</p>
+        <img src="image/Norrland.jpg" alt="norrland">
+      </div>
+      <div class="three-tourism">
+        <p>Все лучшие горнолыжные трассы спрятаны в самой северной области страны, Норрланде. Фантастическое царство
+          снега и льда,
+          ягодный край с топкими болотами и затянутыми мхами лесами, по которым беспрепятственно разгуливают стада
+          оленей – все
+          это северная Швеция. Вдобавок ко всему Норрланду достался один из живописнейших кусочков Лапландии – места,
+          где еще
+          можно встретить коренных обитателей европейского севера, народ саами.
+        </p>
+      </div>
+    </div>
+
+    <div class="aviasales">
+      <h2>Вы можете заказать билеты в Швецию прямо здесь!</h2>
+      <div class="twidget-container" id="twidget"></div>
+      <br><br>
+      <script>
+        $('#twidget').twidget({
+          locale: 'ru',
+          marker: 78606,
+          type: 'avia_hotel',
+          open_in_new_tab: false,
+          default_origin: 'жуковский',
+          default_destination: 'stockholm',
+          default_hotel_location: 'stockholm'
+        });
+      </script>
+    </div>
+    <div class="footer">
+      <h3>Copyright © Все права защищены. Йошкар-Ола 2021 г.</h3>
+    </div>
+  </div>
+</body>
+
+</html>
